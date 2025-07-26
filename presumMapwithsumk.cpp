@@ -13,7 +13,7 @@ int main()
   do
   {
     cin >> k;
-  } while (size < k);
+  } while (k < size);
   vector <int> array(size);
 
   cout << "Now lets input your elements! \n";
